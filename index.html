@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>LightChat</title>
+</head>
+
+<body>
+    <h2>Pseudo:</h2>
+    <input class="input-field col s6" type="text" id="userName"/>
+    <h2>Message</h2>
+    <input class="input-field col s6" type="text" id="message"/>
+    <button class="btn waves-effect waves-light" type='submit' id="sendMessage">Envoyer<i class="material-icons right"></i></button>
+    <div class="collection" id="chatroom">
+
+    </div>
+    
+    <script src="chat.js"></script>
+</body>
+
+</html>

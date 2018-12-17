@@ -1,0 +1,15 @@
+body {
+    background: black;
+    color: blanchedalmond;
+}
+
+input {
+    color: bisque;
+    font-size: 16px;
+}
+
+.collection {
+    color: bisque; 
+    background-color: darkslategray;
+}
+
